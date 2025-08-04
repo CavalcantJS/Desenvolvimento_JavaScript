@@ -1,0 +1,65 @@
+
+  #primeiro{background-color:#ECF0F1 ;
+    color: #2C3E50;
+    text-align: center;
+    font-size: 36px;
+  }
+  #segundo{background-color: #E9F7EF;
+    color: #27AE60;
+    text-align: center;
+    font-size: 36px;
+
+  }
+
+  #terceiro{ background-color: #FFF3E6;
+    color: #F39C12;
+    text-align: center;
+    font-size: 36px;
+  }
+
+#quarto{  background-color:#F5E6F5 ;
+    color: #8E44AD;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+body{width: 50vw;
+margin: auto;
+}
+.primeirop{ background-color:#F9EBEA ;
+  color: #E74C3C;
+  font-size: 28px;
+
+}
+
+.segundop{background-color: #E9F7EF;
+    color: #27AE60;
+    font-size: 28px;
+
+
+}
+
+.terceirop{background-color: #FFF3E6;
+    color: #F39C12;
+     font-size: 28px;
+
+
+
+}
+
+.quartop{ background-color:#F5E6F5 ;
+    color: #8E44AD;
+     font-size: 28px;
+
+
+
+}
+
+p{
+text-align: justify;
+line-height: 1.4;
+font-size: 1em;
+
+}
+
