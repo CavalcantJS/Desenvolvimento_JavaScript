@@ -1,0 +1,28 @@
+main{
+
+border: 1px solid rgba(0, 0, 0, 0.274);
+box-shadow: 1px, 1px, 10px rgba(0, 0, 0, 0.295);
+border-radius: 15px;
+max-width: fit-content;
+}
+
+ul{
+    text-align: left;
+}
+
+ol{
+
+    text-align: left;
+}
+
+
+#foot{
+
+    text-align: center;
+    background-color:  #333;
+    padding: 20px;
+    color:rgb(232, 244, 255);
+    position: none;
+    bottom: 0;
+    width: 100vw;
+}
