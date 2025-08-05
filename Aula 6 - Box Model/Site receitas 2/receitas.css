@@ -16,13 +16,3 @@ ol{
 }
 
 
-#foot{
-
-    text-align: center;
-    background-color:  #333;
-    padding: 20px;
-    color:rgb(232, 244, 255);
-    position: none;
-    bottom: 0;
-    width: 100vw;
-}
