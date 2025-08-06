@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #FEFDF9, #69AAB2)
+}
+
+main{
+
+    margin: auto;
+}
+
+div{
+    border: 15px solid aliceblue;
+    border-radius: 10px;
+    padding: 50px;
+    display: inline-block;
+    margin: 20px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 10px;
+    width: 50%;
+    height: 50%;
+}
