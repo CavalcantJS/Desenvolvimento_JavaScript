@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome">
+    <p></p>
+
+
+    <input type="submit" value="Enviar" onclick="atualizapagina()">
+
+    <script>
+
+        function atualizapagina(){
+            let nome = document.querySelector("#nome").value
+            let paragrafo = document.querySelector("p")
+            console.log(nome)
+            paragrafo.innerHTML = nome
+        }
+    </script>
+
+    
+</body>
+</html>
