@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div{
+
+            width: 300px;
+            margin: 20px auto;
+            padding: 50px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.233);
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+
+    <div onmousemove="mudaCor()" id="caixa" onmouseout="branco()" id="caixa">
+        Caixa
+
+
+    </div>
+    
+<script>
+
+    function mudaCor(){
+        let caixa = document.getElementById("caixa")
+        caixa.style.background = "blue"
+
+
+
+    }
+
+    function branco(){
+        let caixa = document.getElementById("caixa")
+        caixa.style.background = "white"
+
+
+    }
+</script>
+
+</body>
+</html>
