@@ -9,7 +9,17 @@ if (media >= 70){
 } else if(media >= 50){
 
     console.log("Recuperação");
-    
+    let rec = 90
+    media= media+rec
+
+    if (media >= 50){
+
+        console.log("Aprovado")
+      
+    } else {
+        
+        console.log("Reprovado");
+    }
 
 }else{
 
