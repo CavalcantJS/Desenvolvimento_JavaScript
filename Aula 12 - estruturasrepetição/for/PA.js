@@ -4,28 +4,21 @@ const input = require("prompt-sync")();
 console.log("Calculadora P.A");
 
 
-let razão = parseInt(input("digite um valor para a razão: "))
+let razao = parseInt(input("digite um valor para a razão: "))
 let inicio = parseInt(input("digite um valor para iniciar: "))
 let fim = parseInt(input("digite um valor para terminar: "))
 
 
-for(let i=1; i >=fim; i++){
+
+for(let i = 0; i <fim; i++){
+
+
+    let termo = inicio + i * razao
+    
+    console.log(termo);
 
 
     
-    
-    
-
-    console.log(numero);
-
-    if(numero%3 == 0 && numero%2 == 1){
-    soma = soma + numero
-    console.log(soma);
-    
-    }else {
-
-        console.log("numero invalido");
-        
     }
+        
 
-}
