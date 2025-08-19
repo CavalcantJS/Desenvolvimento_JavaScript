@@ -6,7 +6,7 @@ function mostrarResultado(){
 
     for (let i = 0; i <= 10; i++){
         
-        resultado.innerHTML += `${num} X ${i} = ${num *i} <br>`
+        resultado.innerHTML += ` <br>${num} X ${i} = ${num *i}`
 
 }
 
