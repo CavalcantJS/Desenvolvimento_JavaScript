@@ -1,6 +1,6 @@
 let tarefas =[]
 
-function adicionarTarefas(){
+function adicionarTarefa(){
 
 const tarefa = document.getElementById("nova-tarefa").value
 
@@ -19,7 +19,7 @@ function exibeTarefas(){
 let listaTarefas = document.getElementById("lista-tarefas")
 listaTarefas.innerHTML = ""
 
-listaTarefas.forEach((tarefa)=>{
+tarefas.forEach((tarefa)=>{
     let li = document.createElement("li")
     li.innerHTML = tarefa
     listaTarefas.appendChild(li)
